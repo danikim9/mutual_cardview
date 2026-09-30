@@ -170,7 +170,7 @@ function track(event, extra){
 let me = null; try{ me = JSON.parse(store("mutual_me") || "null"); }catch(e){}
 let sent = {}; try{ sent = JSON.parse(store("mutual_sent") || "{}"); }catch(e){}
 let filterG = "";
-const HIDDEN = ["gxt577"]; // 목록에서 숨긴 카드 (상9)
+const HIDDEN = ["xrpy8p"]; // 목록에서 숨긴 카드 (동동이)
 for(let i=CARDS.length-1;i>=0;i--) if(HIDDEN.includes(CARDS[i].id)) CARDS.splice(i,1);
 
 const $ = id => document.getElementById(id);
